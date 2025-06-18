@@ -1,0 +1,105 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e2f;
+  color: #f5f5f5;
+  padding: 20px;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  color: #00ffaa;
+}
+
+.logo {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.participant-form {
+  margin: 20px auto;
+  padding: 20px;
+  background: #2c2f4a;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 255, 170, 0.3);
+}
+
+.participant-form input,
+.participant-form select,
+.participant-form button {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.participant-form button {
+  background-color: #00ffaa;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.participant-form button:hover {
+  background-color: #00cc88;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+#customPaidFor {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.checkbox-row {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  gap: 10px;
+  background-color: #3b3f5c;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.participant-name {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+#customPaidFor label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #3b3f5c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width:100%;
+}
+
+.output {
+  white-space: pre-line;
+  background: #333;
+  color: #00ffaa;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  font-family: monospace;
+}
+
+.footerpart {
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+  margin-top: 40px;
+}
